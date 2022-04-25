@@ -1,7 +1,11 @@
 import Data.Bits ( Bits((.&.)) )
 
 {-
+Run either of these two lines with the appropriate dependencies installed
+to send the output of this program to your terminal and a file.
+
 runhaskell getLowTwoBitsOfFirstChars.hs | tee getLowTwoBitsOfFirstChars.output.txt
+
 ghc --make getLowTwoBitsOfFirstChars.hs && ./getLowTwoBitsOfFirstChars | tee getLowTwoBitsOfFirstChars.output.txt
 -}
 
